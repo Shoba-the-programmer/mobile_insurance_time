@@ -1,0 +1,22 @@
+body {
+    background-color: antiquewhite;
+    font-family:  "Courier New", "Lucida Console", monospace;
+}
+
+header {
+    width: 100%;
+    height: 40px;
+    position: static;
+    background-color: AD9895;
+
+}
+
+header h3 {
+    display: inline-block;
+    background-color: AD9895;
+    margin: 10px;
+}
+
+#user_login {
+    float: right;
+}

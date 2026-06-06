@@ -1,0 +1,36 @@
+<html>
+    <head>
+        <title>
+            M.I.T Customer Application
+        </title>
+        <link rel="stylesheet" href="mit_general_customisations.css">
+        <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+        <script src="mit_generalFunctions.js"></script>
+    </head>
+
+    <body>
+
+        <header> 
+            <h3 onclick="goto_webpage('mit_homepage.html')"> Home</h3>
+            <h3> Insurance Options</h3>
+            <h3 id="user_login"> <i class="glyphicon glyphicon-user"></i> </h3>
+        </header>
+
+        <div id="custumer_application_form_holder">
+            <form action="SUBMIT" method="POST">
+                <!-- name, item(s) to insure , item cost (cumulative),  -->
+                 <label for="customer_name">Full Name</label><br>
+                 <input type="text" id="customer_name" name="customer_name"><br>
+
+                 <label for="items_to_insure">Item to insure</label><br>
+                 <input type="text" id="items_to_insure" name="items_to_insure"><br>
+
+                 <label for="cumulative_item_cost">Cost</label><br>
+                 <input type="text" id="cumulative_item_cost" name="cumulative_item_cost"><br>
+
+                 <input type="submit" value="Apply Now!">
+
+            </form>
+        </div>
+    </body>
+</html>
