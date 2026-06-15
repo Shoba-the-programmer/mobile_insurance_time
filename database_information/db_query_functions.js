@@ -1,7 +1,7 @@
 //import dotenv from "dotenv";
 //dotenv.config();
 
-import { onlineClient } from "./db_access_info";
+import { onlineClient } from "./db_access_info.js";
 
 // ------------------ now the database querying code, now the access has been added ----
 
