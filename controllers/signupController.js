@@ -1,5 +1,5 @@
 //const db_access_information = require("../database_information/db_accessor");  //require db login info
-import pool from "../database_information/db_query_functions.js";
+import pool from "../database_information/db_access_info.js";
 const db_access_information = pool;
 
 import { createApplicantTable } from "../database_information/db_query_functions.js";
