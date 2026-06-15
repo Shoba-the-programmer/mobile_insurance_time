@@ -1,6 +1,8 @@
 import pkg from "pg";
 const { Pool } = pkg;
 
+import { Client } from 'pg';
+
 const pool = new Pool({
     user: "postgres",
     host: "localhost",
