@@ -1,9 +1,9 @@
 //migrating to modern ES module framework
 import {Router} from "express";
-import { creatUserApplication } from "../controllers/signupController";
+import { createUserApplication } from "../controllers/signupController";
 
 const router = Router(); // Router Instance 
-router.post("/submit", creatUserApplication);
+router.post("/submit", createUserApplication);
 
 export default router;
 
